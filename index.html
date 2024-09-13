@@ -3,55 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
     <title>aimsir app</title>
   </head>
   <body>
-    <div class="app"
-    <header>
+    <div class="app">
+      <header>
         <div>
-      <form>
-        <input type="search" placeholder="Choose a location" required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <h1>🌧️ 
-        <br />
-        12°C
-      </h1>
+          <form class="search-form">
+            <input
+              type="search"
+              placeholder="Choose a location"
+              required
+              class="search-form-input"
+            />
+            <input type="submit" value="🔍" class="search-form-button" />
+          </form>
+          <h1>
+            🌧️
+            <br />
+            12°C
+          </h1>
+        </div>
+      </header>
+      <main>
+        <div class="date-info">
+          <div>
+            <p>
+              Monday,
+              <br />
+              September 1
+              <br />
+              14:59
+            </p>
+            <p>
+              Rain: 68%
+              <br />
+              Humidity: 76%
+              <br />
+              Wind: 5km/h
+            </p>
+            <p>Limerick</p>
+          </div>
+        </div>
       </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/becca-ops" target="_blank"> Becca</a>,
+        open-sourced on
+        <a href="https://github.com/becca-ops/aimsir" target="_blank">
+          Github</a
+        >
+        and hosted on
+        <a href="https://aimsir-app.netlify.app/" target="_blank"> Netlify</a>.
+      </footer>
     </div>
-    <div>
-      <p>
-        Monday,
-        <br />
-        September 1
-        <br />
-        14:59
-      </p>
-      <p>
-        Rain: 68%
-        <br />
-        Humidity: 76%
-        <br />
-        Wind: 5km/h
-      </p>
-   <p>
-    Limerick
-   </p>
-    </div>
-    <footer>
-      Coded by
-      <a href="https://github.com/becca-ops" target="_blank"> Becca</a>, is
-      open-sourced on
-      <a href="https://github.com/becca-ops/aimsir" target="_blank"> Github</a>
-      and hosted on
-      <a href="https://aimsir-app.netlify.app/" target="_blank"> Netlify</a>.
-    </footer>
-</div>
   </body>
 </html>
