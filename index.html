@@ -15,7 +15,7 @@
   <body>
     <div class="app">
       <header>
-        <div>
+        <div class="main-display">
           <form class="search-form">
             <input
               type="search"
@@ -25,34 +25,30 @@
             />
             <input type="submit" value="🔍" class="search-form-button" />
           </form>
+          <div>
           <h1>
-            🌧️
-            <br />
-            12°C
+          <div class="app-icon">🌧️</div>
+          <div class="app-temperature">12</div>
+          <div class="app-unit">°C</div>
+
           </h1>
         </div>
       </header>
-      <main>
-        <div class="date-info">
-          <div>
-            <p>
-              Monday,
-              <br />
-              September 1
-              <br />
-              14:59
-            </p>
-            <p>
-              Rain: 68%
-              <br />
-              Humidity: 76%
-              <br />
-              Wind: 5km/h
-            </p>
-            <p>Limerick</p>
-          </div>
-        </div>
-      </main>
+
+      <div class="date-and-weather-info">
+        <h1 class="current-city">Limerick</h1>
+        <h2 class="current-day">Monday, 14:58</h2>
+        <p>
+          Rain: <strong>68%</strong>
+          <br />
+          Humidity: <strong>76%</strong>
+          <br />
+          Wind: <strong>5km/h</strong>
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
       <footer>
         Coded by
         <a href="https://github.com/becca-ops" target="_blank"> Becca</a>,

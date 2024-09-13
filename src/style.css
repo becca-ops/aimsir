@@ -12,6 +12,7 @@ a {
   color: #71a0a5;
 }
 .app {
+  display: flex;
   background: white;
   max-width: 600px;
   margin: 30px auto;
@@ -19,10 +20,25 @@ a {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 20px;
 }
-header {
+.main-display {
   border-right: 1px solid #71a0a53d;
   padding: 5px 0px 5px 5px;
-  margin-right: 400px;
+  margin-right: 10px;
+}
+h1 {
+  display: flex;
+}
+.app-icon {
+  font-size: 50px;
+  margin-top: 20px;
+}
+.app-temperature {
+  font-size: 70px;
+  margin-left: 20px;
+}
+.app-unit {
+  font-size: 30px;
+  margin-top: 10px;
 }
 .search-form-input {
   background-color: #eeeeee;
@@ -30,7 +46,8 @@ header {
   border-radius: 5px;
   padding: 6px;
   color: rgb(12, 12, 12);
-  width: 75%;
+  width: 150px;
+  margin-top: 6px;
 }
 
 .search-form-button {
@@ -39,23 +56,26 @@ header {
   padding: 5px;
   color: white;
   border: none;
-  margin-left: 0px;
-  margin-top: 5px;
-  margin-right: 5px;
+  margin-right: 20px;
 }
 
-.date-info {
-  display: flex;
-  justify-content: flex-start;
+.date-and-weather-info {
+  .current-city {
+    padding: 0;
+    margin: 0;
+    font-size: 39px;
+  }
+  .current-day {
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 2px;
+  }
 }
-
-.main {
-  padding: 0px;
+.date-and-weather-info strong {
+  color: #77628c;
 }
-
-footer {
-  border-top: 1px solid #71a0a53d;
-  padding: 15px 0 0 0;
+.footer {
+  padding: 0px 0 0 0;
   text-align: center;
   font-size: 10px;
   font-weight: lighter;
