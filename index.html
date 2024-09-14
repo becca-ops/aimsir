@@ -16,11 +16,12 @@
     <div class="app">
       <header>
         <div class="main-display">
-          <form class="search-form">
+          <form class="search-form" id="search-form">
             <input
               type="search"
               placeholder="Choose a location"
               required
+              id="search-form-input"
               class="search-form-input"
             />
             <input type="submit" value="🔍" class="search-form-button" />
@@ -36,7 +37,7 @@
       </header>
 
       <div class="date-and-weather-info">
-        <h1 class="current-city">Limerick</h1>
+        <h1 class="current-city" id="current-city">Limerick</h1>
         <h2 class="current-day">Monday, 14:58</h2>
         <p>
           Rain: <strong>68%</strong>
@@ -60,5 +61,6 @@
         <a href="https://aimsir-app.netlify.app/" target="_blank"> Netlify</a>.
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
