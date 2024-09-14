@@ -71,8 +71,21 @@ h1 {
     margin: 2px;
   }
 }
+.percentages-and-speed {
+  margin-left: 2px;
+}
+.description {
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  text-align: center;
+  padding: 0;
+  color: #71a0a5;
+}
 .date-and-weather-info strong {
   color: #77628c;
+}
+.date-and-weather-info {
+  font-size: 10px;
 }
 .footer {
   padding: 0px 0 0 0;
