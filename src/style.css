@@ -25,16 +25,19 @@ a {
   padding: 5px 0px 5px 5px;
   margin-right: 10px;
 }
-h1 {
+.temperature-visual {
   display: flex;
 }
 .app-icon {
-  font-size: 50px;
-  margin-top: 15px;
+  width: 65px;
+  height: 65px;
+  margin-top: 17px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .app-temperature {
   font-size: 70px;
-  margin-left: 20px;
+  margin-left: 8px;
 }
 .app-unit {
   font-size: 30px;
@@ -78,7 +81,7 @@ h1 {
   font-weight: bold;
   margin: 0 0 5px 0;
   text-align: center;
-  padding: 0;
+  padding: 20px;
   color: #71a0a5;
 }
 .date-and-weather-info strong {
